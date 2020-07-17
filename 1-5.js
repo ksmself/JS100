@@ -1,15 +1,15 @@
-/*다음은 자바스크립트 문법 중에서 False로 취급하는 것들 입니다.
-앗, False로 취급하지 않는 것이 하나 있네요! True를 찾아주세요.
+var a = 10;
+var b = 2;
 
-1)  NaN
-2)  1
-3)  ""
-4)  0
-5)  undefined
-*/
+for(var i=1; i<5; i+=2){
+    a += i;
+}
 
-1만 True! number에서 0을 제외한 것은 모두 True! 
+console.log(a+b);
 
-//Answer: 2) 1
+//다음 코드의 출력값은? 
+a = 10 + 1 + 3 = 14
+b = 2
+a + b = 16  
 
-//JavaScript 에서는 null, undefined, 0, 빈 문자열, NaN, false 를 제외하고는 모두 참인 값으로 평가
+//Answer: 16
