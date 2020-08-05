@@ -21,18 +21,18 @@ function mergeSort(arr){
 function merge(left, right){
   let result = [];
 
-  while (/*빈칸을 채워주세요*/ && /*빈칸을 채워주세요*/){
-    if (/*빈칸을 채워주세요*/){
+  while (*빈칸을 채워주세요* && *빈칸을 채워주세요*){
+    if (*빈칸을 채워주세요*){
       result.push(left.shift());
     } else {
       result.push(right.shift());
     }
   }
   while (left.length) {
-    /*빈칸을 채워주세요*/
+    *빈칸을 채워주세요*
   }
   while (right.length) {
-    /*빈칸을 채워주세요*/
+    *빈칸을 채워주세요*
   }
 
   return result;
